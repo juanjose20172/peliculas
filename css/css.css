@@ -1,0 +1,903 @@
+/* general */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+	background-color: #E65100;
+}
+.menup{
+	
+}
+.marca{
+	height: 100%;
+	width: 10%;
+	margin-left: 5%;
+}
+.marca2{
+	position: absolute;
+	height: 40%;
+	width: 8%;
+	left: 6%;
+	top:55%;
+}
+.marcag{
+	position: fixed;
+	height: 65px;
+	width: 95px;
+	left: 95px;
+	top:0;
+	z-index: 3;
+}
+.marcag2{
+	position: fixed;
+	height: 28px;
+	width: 80px;
+	left: 100px;
+	top:35px;
+	z-index: 4;
+}
+.barra_s{
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	background-color: #FB8C00;
+	height: 50px;
+	z-index: 2;
+	width: 100%;
+}
+.barra_s a{
+	float: right;
+}
+#cuadro3{
+	position: fixed;
+	left: 0;
+	right: 0;
+	background-color: #FB8C00;
+	top:0;
+	z-index: 2;
+}
+#cuadro3 ul{
+	text-align: center;
+	list-style: none;
+}
+#cuadro3 ul li{
+	display: inline-block;
+}
+#cuadro3 ul li a{
+	display: block;
+	padding: 15px;
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+}
+#cuadro3 ul li a:hover{
+	background-color: #FFEB3B;
+}
+
+
+/* #cuadro3 2 fin */
+#a1{
+	width: 100%;
+	height: 100%;
+	margin-top: 4.5%;
+
+}
+.titulos{
+	width: 100%;
+	height: 100%;
+	font-size: 450%;
+	text-align: center;
+	background-color: #FBC02D;
+}
+#a1 video{
+	width: 100%;
+	margin-left: 0;
+
+}
+
+#cm{
+	margin-left: 35%;
+	}
+#a2{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0%;
+}
+
+#a2 img{
+	display: block;
+	width: 100%;
+}
+#a2 article{
+	width: 30%;
+	height: 500px;
+	
+	margin-left: 12%;
+
+}
+.icon{
+	width: 65%;
+	float: right;
+	margin-right: 45%;
+}
+#btn_mover{
+	display: none;
+	width: 8%;
+	font-size: 30px;
+	}
+#nav2{
+	margin-top: 0%;
+	left: 0;
+	right: 20px;
+	background-color: #A5CAEA;
+	height: 50px;
+	width: 200px;
+}
+#nav2 ul{
+	text-align: center;
+	list-style: none;
+}
+#nav2 ul li{
+	display: inline-block;
+}
+#nav2 ul li a{
+	display: block;
+	padding: 15px;
+	color: blue;
+	text-decoration: none;
+	font-size: 30px;
+}
+#nav2 ul li a:hover{
+	background-color: yellow;
+}	
+#mi_menu{
+	margin-top: 10px;
+	display: block;
+}
+
+/* usado en pagina terror */
+#a20{
+	width: 100%;
+	height: 100%;
+}
+#a20 div{
+	float: left;
+}
+#a21{
+	position: relative;
+	width: 35%;
+	height: 100%;
+	margin-left: 10%;
+	margin-top: 5%;
+	
+}
+#d21{
+	position: relative;
+	width: 40% ;
+	height: 100%;
+	margin-left: 10%;
+	font-size: 170%;
+	margin-top: 2%;	
+	margin-right: 0%;
+}
+#d23{
+	position: relative;
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	font-size: 150%;
+	margin-top: 5%;
+	text-align: justify;
+}
+#d22{
+	position: relative;
+	width: 60% ;
+	height: 360px;
+	margin-left: 25%;
+	margin-top: 3%;
+	font-size: 150%;
+	margin-bottom: 5%;
+}
+.as{
+	width: 100%;
+	height: 100%;
+}
+.as div{
+	float: left;	
+}
+
+#a22{
+	position: relative;
+	width: 35%;
+	height: 100%;
+	
+	margin-left: 10%;
+	margin-top: 10%;
+	top: 9000%;
+	left: 20%
+}
+
+
+/* aqui van los efectos animacion 1 */
+.efecto1{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-top: 5%;
+	margin-left:2%;
+	margin-bottom: 2%;
+	overflow: hidden;
+	float: left; 
+
+}
+
+.efecto1 img{
+	transition: .4s linear;
+
+	width: 100%;
+	height: 100%
+}
+.efecto1 div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,24,245,0.4);
+	text-align: center;
+	opacity: 0;
+	transition: .4s linear;
+	width: 100%;
+	height: 100%;
+}
+.efecto1 div h4{
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 1% 0;
+	font-size: 120%;
+	margin-top: 10%;
+	transform: translateY(-90px);
+	transition: .4s linear;
+}
+.efecto1 div p{
+	color: white;
+	text-align: justify;
+	padding: 0 20px;
+	margin-top: 25px;
+	transform: translateY(90px);
+	opacity: 0;
+	font-size: 20px;
+	transition: .4s linear;
+
+}
+.efecto1 div a{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	padding: 5% 5%;
+	display: inline-block;
+	margin-top: 10%;
+	opacity: 0;
+	transition: .4s linear;
+}	
+
+/* desde aca va el efecto segundo */
+
+.efecto2{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 5% auto;
+	margin-left: 2%;
+	overflow: hidden;
+	float: left; 
+}
+.efecto2 img{
+	width: 100%;
+	height: 100%
+}
+.efecto2 div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,24,245,0.4);
+	text-align: center;
+	opacity: 0;
+	transition: .4s linear;
+	transform: translateX(300px) translateY(0) rotate(60deg);
+
+
+
+}
+.efecto2 div h4{
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 1% 0;
+	font-size: 120%;
+	margin-top: 10%;
+	transform: translateY(-90px);
+	transition: .8s linear;
+}
+.efecto2 div p{
+	color: white;
+	text-align: justify;
+	padding: 0 20px;
+	margin-top: 15px;
+	transform: translateY(90px);
+	opacity: 0;
+	transition: .8s linear;
+
+}
+.efecto2 div a{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	padding: 5% 5%;
+	display: inline-block;
+	margin-top: 5%;
+	opacity: 0;
+	transition: .8s linear;
+	transform: translateY(90px);
+
+}
+.efecto2:hover div{
+	opacity: 1;
+	transform:rotate(0deg);
+
+
+}
+.efecto2:hover div h4{
+	transform: translateY(0);
+}
+.efecto2:hover div p{
+	transform: translateY(0);
+	opacity: 1;
+}
+.efecto2:hover div a{
+	opacity: 1;
+	transform: translateY(0);
+}
+/* efecto 3 */
+.efecto3{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 5% auto;
+	margin-left: 2%;
+	overflow: hidden;
+	float: left; 
+}
+.efecto3 img{
+	width: 100%;
+	height: 100%;
+}
+.efecto3 div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,24,245,0.4);
+	text-align: center;
+	opacity: 0;
+	transition: .4s linear;
+	transform: translateX(400px) translateY(-300px) rotate(-90deg);
+	
+}
+.efecto3 div h4{
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 1% 0;
+	font-size: 120%;
+	margin-top: 10%;
+	transform: translateX(-400px) translateY(-300px) rotate(-90deg);
+	transition: 1.2s linear;
+}
+.efecto3 div p{
+	color: white;
+	text-align: justify;
+	padding: 0 20px;
+	margin-top: 15px;
+	transform: translateX(400px) translateY(-300px) rotate(90deg);
+	opacity: 0;
+	transition: 1.2s linear;
+
+}
+.efecto3 div a{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	padding: 5% 5%;
+	display: inline-block;
+	margin-top: 5%;
+	opacity: 0;
+	transition: .8s linear;
+	transform: translateY(-90px);
+
+}
+.efecto3:hover div{
+	opacity: 1;
+	transform: rotate(0);
+
+}
+.efecto3:hover div h4{
+	transform: translateX(0px) translateY(0px) rotate(0deg);
+
+}
+.efecto3:hover div p{
+	transform: translateX(0px) translateY(0px) rotate(0deg);
+	opacity: 1;
+
+}
+.efecto3:hover div a{
+	opacity: 1;
+	transform: translateY(0);
+}
+/* efecto 5 */
+
+.efecto5{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 5% auto;
+	margin-left: 2%;
+	overflow: hidden;
+	float: left; 
+}
+.efecto5 div{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(0,24,245,0.4);
+	text-align: center;
+	opacity: 0;
+	transition: .4s linear;
+	transform: translateX(-400px);
+	width: 100%;
+	height: 100%;
+}
+
+.efecto5 div h4{
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 1% 0;
+	font-size: 120%;
+	margin-top: 10%;
+	transition: 1.2s linear;
+}
+.efecto5 div p{
+	color: white;
+	text-align: justify;
+	padding: 0 20px;
+	margin-top: 15px;
+	opacity: 1;
+	transition: 1.2s linear;
+}
+
+.efecto5 div a{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	padding: 5% 5%;
+	display: inline-block;
+	margin-top: 5%;
+	opacity: 1;
+	transition: .8s linear;
+
+}
+.efecto5 img{
+	position: relative;
+	transition: .4s linear;
+	height: 100%;
+	width: 100%;
+}
+/* haciendo mover el menu aviso */
+.efecto5:hover img{
+	transform: translateX(405px);
+}
+.efecto5:hover div{
+	opacity: 1;
+	transform: translateX(0);
+}
+/* efecto 6 */
+
+.efecto6{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 5% auto;
+	margin-left: 2%;
+	overflow: hidden;
+	float: left;
+}
+
+.efecto6 div{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(0,24,245,0.4);
+	text-align: center;
+	opacity: 0;
+	transition: .4s linear;
+}
+
+.efecto6 div h4{
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 1% 0;
+	font-size: 120%;
+	margin-top: 5%;
+	transition: .8s linear;
+}
+.efecto6 div p{
+	color: white;
+	text-align: justify;
+	padding: 0 20px;
+	margin-top: 15px;
+	opacity: 1;
+	transition: .4s linear;
+	font-size: 70px;
+}
+
+.efecto6 div a{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	padding: 4% 4%;
+	display: inline-block;
+	margin-top: 3%;
+	opacity: 1;
+	transition: .8s linear;
+	transform: translateY(90px);
+}
+.efecto6 img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.efecto6:hover div{
+	opacity: 1;
+}
+.efecto6:hover div h4{
+	font-size: 24px;
+}
+.efecto6:hover div p{
+	font-size: 120%;
+}
+.efecto6:hover div a{
+	transform: translateY(0px);
+}
+/* empieza el celular */
+@media only screen and (max-device-width: 768px){
+	#cuadro3{
+	left: 0;
+	top:49px;
+	bottom: 0;
+	height: 100%;
+	width: 400px;
+	transition: .4s linear;
+	transform: translateX(-400px);
+	}
+	.marcag{
+		display: none;
+	}
+	.marcag2{
+		display: none;
+	}
+	#cuadro3 ul li{
+		display: block;
+	}
+	#cuadro3 ul li a{
+		font-size: 270%;
+	}
+
+	#btn_mover{
+		display: block;
+		}
+	#a2 article{
+			width: 50%;
+			float: none;
+			margin-left: 25%;
+			margin-top: 5%;
+			margin-bottom: 10%;
+		}
+		
+	
+	.efecto1 img{
+	transform: scale(1.2);
+	}
+	.efecto1 div{
+		opacity: .7;
+	}
+	.efecto1 div h4{
+		transform: translateY(0);
+	}
+	.efecto1 div p{
+		transform: translateY(0);
+		opacity: 1;
+	}
+	.efecto1 div a{
+		opacity: 1;
+	}
+		.efecto2 div{
+	opacity: .7;
+	transform:rotate(0deg);
+	}
+	.efecto2 div h4{
+		transform: translateY(0);
+	}
+	.efecto2 div p{
+		transform: translateY(0);
+		opacity: 1;
+	}
+	.efecto2 div a{
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+	.efecto3 div{
+	opacity: .7;
+	transform: rotate(0);
+
+	}
+	.efecto3 div h4{
+		transform: translateX(0px) translateY(0px) rotate(0deg);
+
+	}
+	.efecto3 div p{
+		transform: translateX(0px) translateY(0px) rotate(0deg);
+		opacity: 1;
+
+	}
+	.efecto3 div a{
+		opacity: 1;
+		transform: translateY(0);
+	}
+	.efecto5 div{
+	opacity: .7;
+	transform: translateX(0);
+	}
+	.efecto6 div{
+	opacity: .7;
+	}
+	.efecto6 div h4{
+		font-size: 250%;
+	}
+	.efecto6 div p{
+		font-size: 130%;
+	}
+	.efecto6 div a{
+		transform: translateY(0px);
+		font-size: 150%
+	}
+	#a20{
+		width: 60%;
+	}
+	#a20 div{
+	margin-left: 0%;
+	}
+	.as div{
+		margin-left: 0%;
+	}
+	#a21{
+		padding-left: 50%;
+	}
+	#d21{
+		padding-left: 55%;
+		width: 100%;
+		font-size: 200%;
+	}
+	#d23{
+		padding-left: 25%;
+		width: 120%;
+		font-size: 190%;
+		text-align: justify;
+	}
+	#d22{
+		padding-left: 30%;
+		margin-top: 10%;
+	}
+}
+/* aqui termina el celular*/
+
+/* java script mover */
+.mover{
+	transform: translateX(0) !important;
+
+	}
+/* aqui empieza la tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px){
+	#cuadro3{
+	left: 0;
+	top:49px;
+	bottom: 0;
+	height: 100%;
+	width: 300px;
+	transition: .4s linear;
+	transform: translateX(-400px);
+	}
+	.marcag{
+		display: none;
+	}
+	.marcag2{
+		display: none;
+	}
+
+	#cuadro3 ul li{
+		display: block;
+	}
+	#cuadro3 ul li a{
+		font-size: 250%;
+	}
+
+	#btn_mover{
+		display: block;
+		}
+	#a2 article{
+			width: 30%;
+			
+			float: left;
+			margin-left: 13%;
+			margin-top: 5%;
+			margin-bottom: 10%;
+		}
+		.efecto1 img{
+	transform: scale(1.2);
+	}
+	.efecto1 div{
+		opacity: .7;
+	}
+	.efecto1 div h4{
+		transform: translateY(0);
+	}
+	.efecto1 div p{
+		transform: translateY(0);
+		opacity: 1;
+		font-size: 100%;
+	}
+	.efecto1 div a{
+		opacity: 1;
+	}
+	.efecto2 div{
+	opacity: .7;
+	transform:rotate(0deg);
+	}
+	.efecto2 div h4{
+		transform: translateY(0);
+	}
+	.efecto2 div p{
+		transform: translateY(0);
+		opacity: 1;
+	}
+	.efecto2 div a{
+		opacity: 1;
+		transform: translateY(0);
+	}
+	.efecto3 div{
+	opacity: .7;
+	transform: rotate(0);
+
+	}
+	.efecto3 div h4{
+		transform: translateX(0px) translateY(0px) rotate(0deg);
+
+	}
+	.efecto3 div p{
+		transform: translateX(0px) translateY(0px) rotate(0deg);
+		opacity: 1;
+
+	}
+	.efecto3 div a{
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+	.efecto5 div{
+	opacity: .7;
+	transform: translateX(0);
+	}
+	.efecto6 div{
+	opacity: .7;
+	}
+	.efecto6 div h4{
+		font-size: 24px;
+	}
+	.efecto6 div p{
+		font-size: 110%;
+	}
+	.efecto6 div a{
+		transform: translateY(0px);
+	}
+	#a20{
+		width: 60%;
+	}
+	#a20 div{
+	margin-left: 0%;
+
+	}
+	#a21{
+		padding-left: 50%;
+	}
+	#d21{
+		padding-left: 55%;
+		width: 100%;
+		font-size: 200%;
+	}
+	#d23{
+		padding-left: 25%;
+		width: 120%;
+		font-size: 190%;
+		text-align: justify;
+	}
+	#d22{
+		padding-left: 30%;
+		margin-top: 10%;
+	}
+}
+
+
+/* aqui termina la tablet */
+
+/* aqui empieza el laptop */
+@media only screen and (min-device-width: 992px) {
+	.efecto1:hover img{
+	transform: scale(1.2);
+}
+.efecto1:hover div{
+	opacity: 1;
+}
+.efecto1:hover div h4{
+	transform: translateY(0);
+}
+.efecto1:hover div p{
+	transform: translateY(0);
+	opacity: 1;
+}
+.efecto1:hover div a{
+	opacity: 1;
+}
+}
+/* termina laptop */
+@media only screen and (min-device-width: 1200px) {
+	.efecto1:hover img{
+	transform: scale(1.2);
+}
+.efecto1:hover div{
+	opacity: 1;
+}
+.efecto1:hover div h4{
+	transform: translateY(0);
+}
+.efecto1:hover div p{
+	transform: translateY(0);
+	opacity: 1;
+}
+.efecto1:hover div a{
+	opacity: 1;
+}
+}
+
+
+
+
